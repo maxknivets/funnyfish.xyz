@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import * as THREE from 'three';
+import * as THREE from '../../node_modules/@types/three';
 
 const Aquarium = () => {
     const containerRef = useRef(null);
